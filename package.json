@@ -1,0 +1,15 @@
+{
+  "name": "ava-git-submodule-error",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava",
+    "reproduce-error": "npm it && git submodule update && npm t"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ava": "^1.4.1"
+  }
+}
