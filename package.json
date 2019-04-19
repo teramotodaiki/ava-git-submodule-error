@@ -9,8 +9,8 @@
   },
   "ava": {
     "files": [
-      "test/**/*",
-      "!babel/**/*"
+      "test/**/*.js",
+      "!babel/**/*.js"
     ]
   },
   "author": "",
