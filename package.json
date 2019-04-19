@@ -7,6 +7,11 @@
     "test": "ava",
     "reproduce-error": "npm it && git submodule update && npm t"
   },
+  "ava": {
+    "files": [
+      "test/**/*"
+    ]
+  },
   "author": "",
   "license": "ISC",
   "devDependencies": {
